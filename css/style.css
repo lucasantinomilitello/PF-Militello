@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: "nunito", sans-serif;
+}
+
+h1{
+    color: rgb(223, 10, 10);
+    font-family: RetroVintage;
+}
+
+@font-face {
+    font-family: "RetroVintage";
+    src: url(../fonts/RetroVintage-Regular.otf);
+}
+
+.nav-foto img{
+    width: 500px;
+}
+.navbar-nav{
+    gap: 40px;
+}
