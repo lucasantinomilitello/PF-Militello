@@ -7,17 +7,17 @@
      <!-- Iconos -->
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
      <!-- Bootstrap -->
-     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
      <!-- CSS -->
-     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="../css/style.css">
     <title>WarriorsFit</title>
 </head>
 <body>
     <!-- Titulo y Logo de WarriorsFit y Barra de Navegacion WarriorsFit Contacto -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg p-5 navbar-dark bg-dark" id="menu">
         <div class="container-fluid">
             <picture>
-                <a class="navbar-brand nav-foto" href="../index.html"><img src="../img/Warrior.png" alt="logo"><span>WarriorsFit</span></a> 
+                <a class="navbar-brand nav-foto" href="../index.html"><img src="../img/Warrior.png" alt="logo"><span class="fs-3 fw-bold">WarriorsFit</span></a> 
             </picture>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,97 +25,117 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="../index.html">Inicio</a>
+                <a class="nav-link"  href="../index.html"><span class="fs-3 fw-bold">Inicio</span></a>
               </li>
               <li class="nav-item">
-                <a href="./rutinas.html">Rutinas</a>
+                <a class="nav-link"  href="../pages/rutinas.html"><span class="fs-3 fw-bold">Rutinas</span></a>
               </li>
               <li class="nav-item">
-                <a href="./nutricion.html">Nutrición</a>
-              <li class="nav-item">
-                <a href="./nosotros.html">Nosotros</a>
+                <a class="nav-link"  href="../pages/nutricion.html"><span class="fs-3 fw-bold">Nutrición</span></a>
               </li>
               <li class="nav-item">
-                <a href="./contacto.html">Contacto</a>
+                <a class="nav-link" href="../pages/nosotros.html"><span class="fs-3 fw-bold">Nosotros</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="../pages/contacto.html"><span class="fs-3 fw-bold">Contacto</span></a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <!-- Fin de T/l y de la nav--> 
-        <!-- Titulo de la seccion Contacto -->
-    <h2 class="titulo_contacto"> <u>Contacto</u></h2>
+    <!-- Fin de T/l y de la nav-->
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate hic saepe suscipit deserunt ad placeat rerum? Rem, magni. Est, aut similique. Cupiditate dicta quos aut saepe dolorem officia ratione.
-    </p>
-    <img src="../img/Mapa.PNG" alt="Mapa">
-    <!-- Mas adelante agregare un mapa de verdad -->
-    <li><i class='bx bxs-phone-incoming'>Celular</i></li>
-    <li><i class='bx bxs-home' >Lugar</i></li>
-    <!-- Agregar otro logo -->
-    <img src="../img/WarriorsFit1.png" alt="Imagen de WarriorsFit">
-
-    <!-- Seccion de Contacto -->
-    <main class="seccion_de_contacto">
-        <form action="" class="formulario">
-            <div class="form_control">
-                <label for="Nombre"><u><strong>Nombre</strong></u></label>
-                <input type="text" placeholder="Luca" id="Nombre">
-            </div>
-            <div class="form_control" id="surname">
-                <label for="apellido"><u><strong>Apellido</strong></u></label>
-                <input type="text" placeholder="Militello" id="apellido">
-            </div>
-            <div class="form_control" id="correo">
-                <label for="email"><u><strong>Email</strong></u></label>
-                <input type="email" placeholder="lucamilitello10@hotmail.com" id="email">
-            </div>
-            <div class="form_control" id="message">
-                <label for="mensaje"><u><strong>Mensaje</strong></u></label>
-                <textarea id="mensaje" cols="40" rows="8" placeholder="Mensaje"></textarea>
-                <input type="submit" value="Enviar">
-                <p><u> ¡Muchas gracias por su aporte!</u></p>
-            </div>
-        </form>
-    </main>
-
-   <!-- Inicio de Footer -->
-<footer>
-    <!-- Sección Seguinos -->    
-        <section class="follow">
-            <h2>Seguinos</h2>
+<!-- Seccion de Contacto -->
+<section class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../img/WarriorsFit1.png" alt="Imagen de contacto" class="img-fluid" width="100px">
+            <h2 class="subrayado">Contacto:</h2>
+            <p>¡Contáctanos para obtener más información!</p>
             <ul>
-                <li class="link_icon">
-                    <a href="#"><i class='bx bxl-facebook'></i>Facebook</a>
-                </li>
-                <li class="link_icon">
-                    <a href="#"><i class='bx bxl-youtube' ></i>Youtube</a>
-                </li>
-                <li class="link_icon">
-                    <a href="#"><i class='bx bxl-twitter' ></i>Twitter/X</a>
-                </li>
-                <li class="link_icon">
-                    <a href="#"><i class='bx bxl-instagram' ></i>Instagram</a>
-                </li>
-                <li class="link_icon">
-                    <a href="#"><i class='bx bxl-tiktok' ></i>TikTok</a>
-                </li>
+                <li><strong><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-calling" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path> <path d="M15 7l0 .01"></path> <path d="M18 7l0 .01"></path> <path d="M21 7l0 .01"></path> </svg>Teléfono:</strong> (+54) 1131608113</li>
+                <li><strong><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" stroke-width="0" fill="currentColor"></path>
+                    <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" stroke-width="0" fill="currentColor"></path>
+                 </svg>Correo electrónico:</strong> info@hotmail.com</li>
             </ul>
-        </section>
-    <!-- Fin de Sección Seguinos-->    
-    <!-- Sección Newsletter -->  
-    <!-- Insertar "boton" de Newsletter abajo-->  
-        <section class="newsletter">
-            <h2>Newsletter</h2>
-            <p>¡Suscribase a nuestro Newsletter para mantenerse informado de cualquier novedad!</p>
-        </section>
+        </div>
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label"><b>Nombre:</b></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre completo">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label"><b>Correo electrónico:</b></label>
+                    <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label"><b>Mensaje:</b></label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar mensaje</button>
+                <p><u> ¡Muchas gracias por su aporte!</u></p>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Fin de la sección -->
+
+<!-- Sección Mapa -->
+<div class="col">
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-12 text-center"> <!-- Añade la clase "text-center" para centrar el contenido -->
+                <h2 class="subrayado-contacto">Donde nos puede ubicar:</h2>
+            </div>
+        </div>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.194773968644!2d-58.50934639674031!3d-34.571924132161406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1694472221522!5m2!1ses-419!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="col-md-12 text-center"> <!-- Añade la clase "text-center" para centrar el contenido -->
+        <ul>
+            <li><strong><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-calling" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path> <path d="M15 7l0 .01"></path> <path d="M18 7l0 .01"></path> <path d="M21 7l0 .01"></path> </svg>Teléfono:</strong> (123) 456-7890</li>
+            <li><strong><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" stroke-width="0" fill="currentColor"></path>
+                <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" stroke-width="0" fill="currentColor"></path>
+             </svg>Correo electrónico:</strong> info@example.com</li>
+        </ul>
+    </div>
+</div>
+   
+
+    <!-- Sección de Redes Sociales -->
+<section class="follow-us">
+  
+    <h2 class="subrayado">Siganos</h2>
     
-        Copyright &COPY;2023 WarriorsFit
-        <p>Diseño Web: <strong> Luca Santino Militello </strong></p>
-    </footer>
-    <!-- Fin de Footer -->
-</footer>
-<script src="./js/bootstrap.bundle.min.js"></script>   
+    <ul class="social-links">
+        <li><a href="https://www.facebook.com" target="_blank"><img src="../img/Facebook.png" alt="Facebook"></a></li>
+        
+        <li><a href="https://www.twitter.com" target="_blank"><img src="../img/Twitter.png" alt="Twitter"></a></li>
+        
+        <li><a href="https://www.instagram.com" target="_blank"><img src="../img/Instagram.png" alt="Instagram"></a></li>
+        
+        <li><a href="https://www.youtube.com" target="_blank"><img src="../img/Youtube.png" alt="Youtube"></a></li>
+        
+        <li><a href="https://www.tiktok.com" target="_blank"><img src="../img/TikTok.png" alt="TikTok"></a></li>
+    
+      </ul>
+  
+    </section>
+  <!-- Fin de la Sección-->
+  
+  <!-- Inicio de Footer -->
+  <footer>    
+    <p>Diseño Web: <strong> Luca Militello </strong></p>
+  
+    <p>&copy; 2023 WarriorsFit. Todos los derechos reservados.</p>
+  </footer>
+  <!-- Fin de Footer -->
+  
+  <!-- Bootstrap -->
+<script src="../js/bootstrap.bundle.min.js"></script>   
 </body>
 </html>

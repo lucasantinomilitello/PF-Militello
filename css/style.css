@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+/* Fondo y letras*/
 body{
     background-color: rgb(226, 226, 226);
     font-family: "Roboto Slab", sans-serif;
     overflow-x: hidden;
 }
 
-
+/* Parte de la Nav*/
 #menu a{
-    font-size: 18px;
+    font-size: px;
     font-weight: lighter;
-    color: red;
+    color: rgb(255, 0, 0);
 }
+
+/*Letras*/
 h1{
+    color: rgb(223, 10, 10);
+    font-family: RetroVintage;
+}
+
+h3{
     color: rgb(223, 10, 10);
     font-family: RetroVintage;
 }
@@ -22,28 +30,47 @@ h1{
     src: url(../fonts/RetroVintage-Regular.otf);
 }
 
+/* Nav*/
 .nav-foto img{
-    width: 200px;
+    width: 100px;
 }
 .navbar-nav{
     gap: 40px;
+    
 }
+.navbar {
+    height: 80px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+
+
+
+/* Sección con contenido del sitio Index*/
 
 .container {
-    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: flex-start; /* Alinea los elementos verticalmente en la parte superior */
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start; 
 }
 
 .item {
-    text-align: center; /* Centra el contenido del elemento */
+    text-align: center;
     margin: 0 40px;
 }
 
 .image {
-    width: 200px; /* Ancho de las imágenes (ajusta según tus necesidades) */
+    width: 150px; 
 }
 
+.image1{
+    width: 150px;
+    height: 100px;
+}
+
+
+/* Sección Seguinos*/ 
 .follow-us {
     text-align: center;
     padding: 30px;
@@ -64,13 +91,42 @@ h1{
     height: 50px;
 }
 
+.subrayado{
+    text-decoration: underline;
+    font-family: RetroVintage;
+    color:rgb(223, 10, 10);
+}
+
+
+/* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: rgba(255, 0, 0, 0.295);
+    color: black;
     text-align: center;
     padding: 10px;
 }
 
 footer p {
     margin: 0;
+}
+
+/* Contacto pag*/
+.icon-tabler-phone-calling{
+    margin-right: 10px;
+    color: red; 
+}
+
+.icon-tabler-mail-filled{
+    margin-right: 10px;
+    color: red;
+}
+
+.subrayado-contacto{
+    text-decoration: underline;
+}
+
+/* Nosotros pag*/
+.bi-person-circle{
+    margin-right: 10px;
+    color: red;
 }
