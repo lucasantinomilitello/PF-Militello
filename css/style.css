@@ -1,3 +1,136 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@font-face {
+  font-family: "RetroVintage";
+  src: url(../../fonts/RetroVintage-Regular.otf);
+}
+h1 {
+  color: rgb(223, 10, 10);
+  font-family: RetroVintage;
+}
+
+h2 {
+  color: rgb(223, 10, 10);
+  font-family: RetroVintage;
+}
+
+h3 {
+  color: rgb(223, 10, 10);
+  font-family: RetroVintage;
+}
+
+h4 {
+  color: rgb(223, 10, 10);
+  font-family: RetroVintage;
+}
+
+h5 {
+  color: rgb(223, 10, 10);
+  font-family: RetroVintage;
+}
+
+h6 {
+  color: rgb(223, 10, 10);
+  font-family: RetroVintage;
+}
+
+/* Fondo y letras*/
+body {
+  background-color: rgb(226, 226, 226);
+  font-family: "Roboto Slab", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Parte de la Nav*/
+#menu a {
+  font-size: px;
+  font-weight: lighter;
+  color: rgb(255, 0, 0);
+}
+
+/* Nav*/
+.navbar {
+  height: 80px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.navbar .nav-foto img {
+  width: 100px;
+}
+.navbar .navbar-nav {
+  gap: 40px;
+}
+
+/* Sección con contenido del sitio Index*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .item {
+  text-align: center;
+  margin: 0 40px;
+}
+.container .item .image {
+  width: 150px;
+}
+.container .item .image1 {
+  width: 150px;
+  height: 100px;
+}
+
+/* Sección Seguinos*/
+.follow-us {
+  text-align: center;
+  padding: 30px;
+}
+.follow-us .subrayado {
+  text-decoration: underline;
+  font-family: RetroVintage;
+  color: rgb(223, 10, 10);
+}
+.follow-us .social-links {
+  list-style: none;
+  padding: 0;
+}
+.follow-us .social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+.follow-us .social-links img {
+  width: 40px;
+  height: 50px;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 0, 0, 0.295);
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  margin: 0;
+}
+
+/* Contacto pag*/
+.icons .icon-tabler-phone-calling {
+  margin-right: 10px;
+  color: red;
+}
+.icons .icon-tabler-mail-filled {
+  margin-right: 10px;
+  color: red;
+}
+
+.subrayado-contacto {
+  text-decoration: underline;
+}
+
+/* Nosotros pag*/
+.bi-person-circle {
+  margin-right: 10px;
+  color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
