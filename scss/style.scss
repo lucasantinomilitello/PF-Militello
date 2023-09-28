@@ -11,13 +11,12 @@ body{
 
 /* Parte de la Nav*/
 #menu a{
-    font-size: px;
+    font-size: 15px;
     font-weight: lighter;
     color: rgb(255, 0, 0);
 }
 
 /* Nav*/
-
 .navbar {
     height: 80px;
     padding: 10px 20px;
@@ -112,3 +111,5 @@ footer {
     margin-right: 10px;
     color: red;
 }
+
+@import "./partials/queries"
