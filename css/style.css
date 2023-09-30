@@ -43,18 +43,17 @@ body {
 
 /* Parte de la Nav*/
 #menu a {
-  font-size: px;
+  font-size: 15px;
   font-weight: lighter;
   color: rgb(255, 0, 0);
 }
 
 /* Nav*/
 .navbar {
-  height: 80px;
-  padding: 10px 20px;
+  padding: 30px;
   font-size: 18px;
 }
-.navbar .nav-foto img {
+.navbar img {
   width: 100px;
 }
 .navbar .navbar-nav {
@@ -123,14 +122,94 @@ footer p {
   color: red;
 }
 
+.phone {
+  color: red;
+  margin-right: 10px;
+}
+
+.mail {
+  color: red;
+  margin-right: 10px;
+}
+
 .subrayado-contacto {
   text-decoration: underline;
+  text-align: center;
+}
+
+.contenedor-formulario {
+  display: flex;
+}
+.contenedor-formulario .contact {
+  margin: 20px;
 }
 
 /* Nosotros pag*/
 .bi-person-circle {
   margin-right: 10px;
   color: red;
+}
+
+/*Seccion Rutinas y Nutricion*/
+.titulo {
+  text-align: center;
+  padding: 8px;
+}
+
+.texto {
+  margin: auto;
+  text-align: center;
+  max-width: 150ch;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.texto1 {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.img1 {
+  max-height: 300px;
+}
+
+.img2 {
+  max-height: 450px;
+}
+
+.principal {
+  padding: 10px;
+}
+.principal .listas li {
+  margin: 10px;
+}
+.principal .listas span {
+  font-weight: bold;
+}
+.principal .linknutricion a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+
+.cardio {
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.cardiotext {
+  margin: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
